@@ -10,12 +10,12 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 h1{
     font-size: 3.125rem;
-    text-align: center;
+    margin: 20px auto;
 }
 
 a {
@@ -33,7 +33,29 @@ h3{
     color: gray;
 }
 
+div{
+    margin: 15px auto;
+    width: 100%;
+}
+
+.purpose {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.purpose h3,
+img{
+    margin: 10px auto;
+}
+
+footer{
+    width: 100%;
+}
+
 footer h3 {
     text-align: right;
+    margin: auto 10px
 }
 
